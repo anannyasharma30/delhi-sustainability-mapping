@@ -5,6 +5,8 @@ library(ggrepel)
 library(sf)
 library(viridis)
 
+## To run, please download datasets from Google drive ("https://drive.google.com/drive/folders/1wqA9hOGnhr6hR8IHWyJktYvLH1f3cLqB?usp=sharing") and replace file paths.
+
 district_shp <- st_read("/Users/anannyasharma/Documents/Ashoka/ASP/Spring 24/ISM - Mapping the Sustainability of Delhi/code/datasets/shrug-pc11subdist-poly-shp/subdistrict.shp")
 pm25_shrug_pc_11_district <- read.csv("/Users/anannyasharma/Documents/Ashoka/ASP/Spring 24/ISM - Mapping the Sustainability of Delhi/code/datasets/shrug-pm25-csv/pm25_pc11dist.csv")
 state_keys <- read.csv("/Users/anannyasharma/Documents/Ashoka/ASP/Spring 24/ISM - Mapping the Sustainability of Delhi/code/datasets/state_key.csv")
